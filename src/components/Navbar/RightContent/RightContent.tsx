@@ -1,5 +1,6 @@
 import React from 'react';
 import { Flex } from '@chakra-ui/react';
+import AuthModel from '@/components/Modal/Auth/AuthModal';
 import AuthButtons from './AuthButtons';
 
 type RightContentProps = {};
@@ -7,7 +8,7 @@ type RightContentProps = {};
 const RightContent: React.FC<RightContentProps> = () => {
   return (
     <>
-      {/* <AuthModel /> */}
+      <AuthModel />
       <Flex justify='center' align='center'>
         <AuthButtons />
       </Flex>
