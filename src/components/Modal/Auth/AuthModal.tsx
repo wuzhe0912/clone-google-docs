@@ -38,25 +38,19 @@ const AuthModal: React.FC<AuthModalProps> = () => {
             flexDirection='column'
             alignItems='center'
             justifyContent='center'
+            pb={6}
           >
             <Flex
               direction='column'
               alignItems='center'
               justifyContent='center'
               width='70%'
-              border='1px solid red'
             >
               <AuthInputs />
               {/* <OAuthButtons />
               <ResetPassword /> */}
             </Flex>
           </ModalBody>
-          <ModalFooter>
-            <Button colorScheme='blue' mr={3} onClick={handleClose}>
-              Close
-            </Button>
-            <Button variant='ghost'>Secondary Action</Button>
-          </ModalFooter>
         </ModalContent>
       </Modal>
     </>
